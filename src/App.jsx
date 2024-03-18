@@ -8,8 +8,12 @@ function App() {
 	return (
 		<>
 			<Header />
-			<NavigationMenu />
-			<Content />
+			<main>
+				<div className="container">
+					<NavigationMenu />
+					<Content />
+				</div>
+			</main>
 			<Footer />
 		</>
 	);
