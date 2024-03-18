@@ -2,4 +2,10 @@
 
 ## My blog
 
-In progress
+A simple exercise to learn how to use component
+
+[Website](https://react-my-blog-second-exercise.netlify.app/)
+
+## To Do
+
+- Responsive
