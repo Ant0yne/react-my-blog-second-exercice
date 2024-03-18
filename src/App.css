@@ -1,0 +1,5 @@
+@import "./style/global.css";
+@import "./style/Header.css";
+@import "./style/NavigationMenu.css";
+@import "./style/Content.css";
+@import "./style/Footer.css";
