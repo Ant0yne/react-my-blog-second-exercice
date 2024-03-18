@@ -1,9 +1,11 @@
 #navmen {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	background-color: var(--grey);
 	padding: 10px 0;
 	margin-bottom: 20px;
+	position: sticky;
+	top: 0;
 }
 
 #navmen a {

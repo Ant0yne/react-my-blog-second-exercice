@@ -25,6 +25,18 @@ h1 {
 	margin: 20px 0;
 }
 
+h2 {
+	font-size: 3rem;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+h3 {
+	font-size: 1.8rem;
+	font-weight: 450;
+	margin-bottom: 20px;
+}
+
 p {
 	font-size: 1.6rem;
 }

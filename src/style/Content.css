@@ -1,3 +1,41 @@
 #content {
 	display: flex;
+	gap: 20px;
+	margin-bottom: 60px;
+}
+
+#main-content {
+	flex: 2;
+}
+
+#main-content img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	object-position: 0 20%;
+}
+
+#main-content > div {
+	margin-bottom: 15px;
+}
+
+#main-content > div,
+#side-content > div {
+	padding: 10px 20px 30px 20px;
+	background: var(--white);
+}
+
+#side-content {
+	flex: 1;
+}
+
+#side-content img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+#main-content img,
+#side-content img {
+	margin-bottom: 20px;
 }

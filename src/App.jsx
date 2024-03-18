@@ -9,8 +9,8 @@ function App() {
 		<>
 			<Header />
 			<main>
+				<NavigationMenu />
 				<div className="container">
-					<NavigationMenu />
 					<Content />
 				</div>
 			</main>

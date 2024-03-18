@@ -1,0 +1,9 @@
+footer {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+footer span,
+footer a {
+	font-weight: bold;
+}
