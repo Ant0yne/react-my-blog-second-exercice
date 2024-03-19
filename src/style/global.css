@@ -47,7 +47,11 @@ a {
 	font-size: 1.6rem;
 }
 
-.container {
-	width: 1024px;
-	margin: 0 auto;
+/* ---------------------MEDIA : 1024px--------------------- */
+
+@media (min-width: 1024px) {
+	.container {
+		width: 1024px;
+		margin: 0 auto;
+	}
 }

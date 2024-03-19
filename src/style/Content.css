@@ -1,6 +1,4 @@
 #content {
-	display: flex;
-	gap: 20px;
 	margin-bottom: 60px;
 }
 
@@ -13,6 +11,13 @@
 	height: 150px;
 	object-fit: cover;
 	object-position: 0 20%;
+}
+
+#side-content img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	object-position: 0 35%;
 }
 
 #main-content > div {
@@ -29,13 +34,20 @@
 	flex: 1;
 }
 
-#side-content img {
-	width: 100%;
-	height: 200px;
-	object-fit: cover;
-}
-
 #main-content img,
 #side-content img {
 	margin-bottom: 20px;
+}
+
+/* ---------------------MEDIA : 1024px--------------------- */
+
+@media (min-width: 1024px) {
+	#content {
+		display: flex;
+		gap: 20px;
+	}
+
+	#side-content img {
+		height: 200px;
+	}
 }

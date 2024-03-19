@@ -1,14 +1,39 @@
 #navmen {
 	display: flex;
-	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
 	background-color: var(--grey);
 	padding: 10px 0;
 	margin-bottom: 20px;
-	position: sticky;
-	top: 0;
+}
+
+#navmen > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #navmen a {
 	color: var(--white);
 	margin: 0 20px;
+	line-height: 25px;
+	padding: 5px 0;
+}
+
+/* ---------------------MEDIA : 768px--------------------- */
+
+@media (min-width: 768px) {
+	#navmen {
+		flex-direction: row;
+		justify-content: space-around;
+		background-color: var(--grey);
+		padding: 10px 0;
+		margin-bottom: 20px;
+		position: sticky;
+		top: 0;
+	}
+
+	#navmen > div {
+		flex-direction: row;
+	}
 }
