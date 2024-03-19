@@ -8,4 +8,4 @@ A simple exercise to learn how to use component
 
 ## To Do
 
-- Responsive
+/
